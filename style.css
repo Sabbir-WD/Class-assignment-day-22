@@ -1,0 +1,225 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a,
+p{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.padding{
+    padding:80px 0px;
+}
+/* Header section start */
+.header-section{
+    position:fixed;
+    width: 100%;
+    z-index: 999;
+}
+.header-logo{}
+.header-logo img{
+    width: 66px;
+}
+.header-menu{}
+.header-menu ul{}
+.header-menu ul li{
+    position: relative;
+}
+.header-menu ul li a{
+    padding: 0px 25px!important;
+    display: inline-block;
+}
+.header-menu ul li ul{
+    position: absolute;
+    top: 136%;
+    left: 0px;
+    padding: 0px;
+    background: #ddd;
+    width: 209px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.header-menu ul li ul li{
+    padding: 12px 10px;
+    border-bottom: 1px solid salmon;
+}
+.header-menu ul li ul li a{
+}
+.header-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+/* Header section end */
+/* Banner section start */
+.banner{
+    background: #e8f0fe;
+    padding-top: 115px;
+}
+.banner-content{}
+.content h3{
+    font-weight: 400;
+}
+.content h1{}
+.banner-content p{}
+.content button{
+    padding: 7px 20px!important;
+    font-weight: 500!important;
+    background: #1a73e8!important;
+    color: white!important;
+}
+/* Banner section end */
+
+/* service section start */
+.service-section{
+    background: #e8f0fe;
+}
+.heading-content{}
+.heading-content h1{}
+.heading-content p{}
+.service-item{
+    padding: 51px;
+
+}
+.service-item span{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: #e8f0fe;
+    border-radius: 50%;
+    color: black;
+    font-size: 40px;
+    margin-bottom: 21px;
+}
+.service-item h4{}
+.service-item h5{}
+.service-item ul{}
+.service-item ul li{
+    margin-bottom: 30px;
+    color: gray;
+    font-size: 20px;
+}
+.service-item a{
+    display: inline-block;
+    border: 2px solid;
+    padding: 8px 29px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    transition: .5s;
+}
+.service-item:hover span{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.service-item:hover a{
+    background: #000;
+    color: white;
+    border: 2px solid black;
+}
+.service-item:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+/* service section end */
+
+/* team section start */
+
+.team-item{
+    padding: 26px 29px 26px 26px;
+    position: relative;
+    text-align: center;
+}
+.team-item img{
+    position: absolute;
+    top: -52px;
+    left: 16px;
+    width: 126px;
+    height: 126px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+.team-item h3{
+    margin-top: 73px;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.team-item span{
+    display: inline-block;
+    font-size: 19px;
+}
+.team-item p{
+    color: #808080b3;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+.team-item a{
+    display: inline-block;
+    font-weight: 700;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+    transition: .5s;
+}
+.team-item a:hover{
+    background: #000;
+    color: #fff;
+}
+/* team section end */
+/* Contact section start */
+.contact-section{
+    background: #e8f0fe;
+}
+.contact{
+    box-shadow: 0px 0px 30px #00000029;
+    padding: 57px;
+    background: #fff;
+}
+.contact h3{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.contact input{
+    padding: 14px;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+.contact textarea{
+    padding: 14px;
+    font-size: 21px;
+    margin-bottom: 35px;
+}
+.contact-btn {
+    text-align: center;
+}
+.contact-btn a{
+    background: #6278df!important;
+    padding: 15px 29px;
+    font-weight: 600;
+    font-size: 21px;
+    color: white!important;
+    border: 1px solid #6278df!important ;
+}
+.contact-btn a:hover{
+    background: #fff!important;
+    color: black!important;
+    box-shadow: 0px 0px 30px #6278df;
+}
+.contact input:focus{
+    box-shadow: 0px 0px 20px #788eec ;
+}
+.contact textarea:focus{
+    box-shadow: 0px 0px 20px #788eec ;
+}
+.contact-info{
+    padding:80px 30px ;
+}
+/* Contact section end */
